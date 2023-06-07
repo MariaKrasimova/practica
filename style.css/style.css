@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    width: 1300px;
+    margin:0 auto;
+}
+
+header .govno {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 15px 5%;
+    background-color: #EFEFEF;
+}
+
+header .govno nav ul {
+    display: flex;
+    column-gap: 50px;
+}
+    
+header .govno a.enter {
+    justify-self: end;
+}
+ 
+.govno a {
+    color: black;
+}
+
+.logo img {
+    width: 200px;
+    height: 150px;
+}
+
+.icon2 p {
+    color: #FE7B73;
+}
+
+.icon3 {
+    background-color: #D9D9D9;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.poy {
+    width: 200px;
+}
+
+.poys {
+    color: #FE7B73;
+}
+
+.loy {
+    color: #FE7B73;
+}
+
+.govno2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon p {
+    width: 150px;
+}
+
+.poys1 {
+    margin-top: 40px;
+    margin-right: 100px;
+}
+
+.loy1 {
+    margin-top: 40px;
+}
+
+.icon {
+    margin-top: 40px;
+    display: flex;
+}
+
+header .govno3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 15px 5%;
+    background-color: #0C545C;
+}
+
+header .govno3 nav ul {
+    display: flex;
+    column-gap: 50px;
+}
+
+header .govno3  nav ul li a {
+    color: white;
+}
+
+header .govno3 .poisk  {
+    justify-self: end;
+}
+
+header .govno3 .poisk form .search input {
+    border: none;
+    background-color: #DCDCDC;
+    outline: none;
+    width: 100%;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+header .govno3 .poisk form .search {
+    justify-self: end;
+    width: 55px;
+    background-color: #5CDB95;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    display: flex;
+}
+
+header .govno3 .poisk form .search button i {
+    font-size: 25px;
+}
+
+header .govno3 .poisk form button {
+    border: none;
+    background-color: #DCDCDC;
+    outline: none;
+    width: 100%;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+.govno4 {
+    background-color: #0C545C;
+    height: 70px;
+}
+
+.govno4 h1 {
+    color: #EFEFEF;
+    text-align: center;
+    padding: 15px;
+}
+
+.skidki {
+    margin-top: 25px;
+    height: 500px;
+    width: 1300px;
+    border: 1px solid #CEDDDE;
+}
+
+.skidki1 img {
+    height: 280px;
+    width: 270px;
+}
+
+.skidki1 p {
+    width: 295px;
+}
+
+.skidki1 .si p {
+    color: #FE7B73;
+}
+
+.skidki1 .sis {
+    display: flex;
+    width: 450px;
+}
+
+.skidki2 img {
+    height: 280px;
+    width: 270px;
+}
+
+.skidki2 p {
+    width: 280px;
+}
+
+.skidki2 .sie p {
+    color: #FE7B73;
+}
+
+.skidki2 .sise {
+    display: flex;
+    width: 450px;
+}
+
+.skidki3 img {
+    height: 280px;
+    width: 270px;
+}
+
+.skidki3 p {
+    width: 295px;
+}
+
+.skidki3 .sier p {
+    color: #FE7B73;
+}
+
+.skidki3 .siser {
+    display: flex;
+    width: 450px;
+}
+
+.skidki5 {
+    display: flex;
+    margin: 30px;
+}
+body > footer > section > div.yky {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: gray;
+}

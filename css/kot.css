@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --green: #0C545C;
+    --lightgreen: #5798A0;
+    --orange: #FE6860;
+    --gray: #D9D9D9;
+    --lightgray: #EFEFEF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    outline: none;
+}
+
+header {
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+    padding: 0 10%;
+}
+
+header .first {
+    background-color: #EFEFEF;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 15px 50px;
+}
+
+header .first nav ul {
+    display: flex;
+    column-gap: 100px;
+}
+
+header .first nav ul li a {
+    color: black;
+}
+
+header .first a:last-child {
+    justify-self: end;
+}
+
+header .second {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 15px 50px;
+    column-gap: 125px;
+}
+
+header .second .logo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #FE6860;
+    width: 210px;
+}
+
+header .second .item:nth-child(2) p:last-child {
+    color: #FE6860;
+}
+
+header .second .item:nth-child(3) p:first-child {
+    color: #FE6860;
+}
+
+header .second .item span {
+    text-decoration: underline;
+}
+
+header .second .logo hr {
+    border: 10px solid #FE6860;
+}
+
+header .second .cabinet {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+}
+
+header .second .cabinet .avatar {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: #D9D9D9;
+    border-radius: 100px;
+    justify-self: end;
+}
+
+header .third {
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    padding: 0 50px;
+    align-items: center;
+    background-color: #0C545C;
+}
+
+header .third nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .third nav ul li a {
+    color: white;
+}
+
+header .third form {
+    justify-self: end;
+}
+
+header .third form .search {
+    display: flex;
+    background-color: #5798A0;
+    border: 1px solid white;
+    padding: 3px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+header .third form .search input {
+    border: none;
+    background-color: #5798A0;
+    padding-left: 15px;
+    color: white;
+}
+
+header .third form .search button {
+    background: none;
+    border: none;
+}
+
+header .third form .search button i {
+    color: white;
+    cursor: pointer;
+}
+
+.name {
+    background-color: #0C545C;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+main {
+    display: flex;
+    padding: 25px 10%;
+    column-gap: 5px;
+}
+
+main section.sex {
+    width: 100%;
+}
+
+main section.boba .names {
+    background-color: #FE6860;
+    color: black;
+    text-align: center;
+    padding: 15px 0;
+}
+
+main section.boba .xef p {
+    font-size: 20px;
+    padding: 15px 0;
+    border-bottom: 1px solid;
+}
+
+main section.boba {
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-columns: repeat(1, 2fr);
+}
+
+
+main section.aboba .names {
+    background-color:#0C545C;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+}
+
+main section.aboba {
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+    border: 1px solid dimgray;
+}
+
+main section.aboba .discount-item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    padding: 15px 0;
+    justify-items: center;
+    width: 100%;
+}
+
+main section.aboba .discount-item .item {
+    display: grid;
+    width: 300px;
+    height: 100%;
+    justify-items: center;
+    align-items: end;
+
+}
+
+main section.aboba .discount-item .item img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+}
+
+main section.aboba .discount-item .item .info {
+    display: grid;
+    row-gap: 10px;
+}
+
+main section.aboba .discount-item .item .price {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+main section.aboba .discount-item .item .price p:last-child {
+    justify-self: center;
+    color: black;
+}
+
+
+
+
+
+footer {
+    padding: 0 10%;
+}
+
+footer .name {
+    padding: 25px;
+}
+
+footer section .yky {
+    display: grid;
+    background-color: #EFEFEF;
+    column-gap: 100px;
+    grid-template-columns: repeat(3, 300px);
+    padding: 50px 10%;
+}
+
+footer section .yky h1 {
+    color: #FE6860;
+}
